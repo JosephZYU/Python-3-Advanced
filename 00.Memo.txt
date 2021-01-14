@@ -3,3 +3,8 @@
 # 🎯🧐 Review on the tear down method: try and finally
 # Ref - https://youtu.be/-aKFBoZpiqA?t=770
 
+S1 - Context Manager via Class - https://youtu.be/-aKFBoZpiqA?t=158 ⏩⏩
+
+S2 - Context Manager via function - https://youtu.be/-aKFBoZpiqA?t=503 ⏩⏩
+     
+     RESUME -> https://youtu.be/-aKFBoZpiqA?t=558

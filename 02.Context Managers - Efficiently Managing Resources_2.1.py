@@ -1,3 +1,10 @@
+"""
+# 🎯 how to NOT overwite existing file? how to start from the end and do NOT impact any existing content
+
+
+"""
+
+
 # context manager -> properly manage resources,
 # we can specify exactly what we want to set up and tear down
 # when working with certain objects
@@ -41,3 +48,15 @@ class OpenFile:
     # It's an action towards soemthing! NOT an attribute of something!
     def __exit__(self, exc_type, exc_val, traceback):
         self.file.close()
+
+
+# DO NOT forget with statement!
+# NOTE: we don't want to over-write, LFO
+# YES - we just overwrite it, sorry
+# 🎯 how to NOT overwite existing file? how to start from the end and do NOT impact any existing content
+# 🎯 how to read ONLY?
+
+with OpenFile('sample.txt', 'w') as f:
+    f.write('This something NEW')
+
+print(f.closed)
