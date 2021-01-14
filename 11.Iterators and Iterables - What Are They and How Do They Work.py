@@ -39,6 +39,7 @@ iteration now I know all of these terms
 might be running together
 """
 
+"""
 nums = [1, 2, 3]
 
 i_nums = iter(nums)
@@ -73,9 +74,26 @@ nums = MyRange(1, 10)
 
 for num in nums:
     print(num)
+"""
+
 
 """
 iterable: more specifically it means that the object needs to return an iterator
 object from its dunder itter method and the iterator that is returned from dunder 
 itter must define a dunder next method which accesses elements in the container one at a time
 """
+
+
+def my_range(start, end):
+    current = start
+    while current < end:
+        yield current
+        current += 1
+
+
+nums = my_range(1, 10)
+
+print(next(nums))
+print(next(nums))
+print(next(nums))
+print(next(nums))
