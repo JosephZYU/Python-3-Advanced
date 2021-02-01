@@ -18,7 +18,7 @@ print(p1.stdout)
 print()
 
 
-# Work with context manager ⭐️ 200
+# Work with context manager ⭐️
 """
 with open('20.Ref - output.txt', 'w') as f:
     p1 = subprocess.run(['ls', '-la'], stdout=f, text=True)
@@ -35,8 +35,21 @@ p1 = subprocess.run(['ls', '-la', 'dne'],
 print(p1.stderr)
 
 
-# cat command
+# cat command to print out content from file ⭐️
 
-p1 = subprocess.run(['cat', 'text.txt'], capture_output=True, text=True)
-
+p1 = subprocess.run(['cat', 'require.txt'], capture_output=True, text=True)
 print(p1.stdout)
+
+p2 = subprocess.run(['grep', '-n', 'pylint'],
+                    capture_output=True, text=True, input=p1.stdout)
+print(p2.stdout)
+
+# 13: pylint==2.6.0 -> on line 13 on that output
+
+
+# PUT IT ALL TOGETHER! ⭐️⭐️⭐️
+
+p3 = subprocess.run('cat require.txt | grep -n pylint',
+                    capture_output=True, text=True, shell=True)
+
+print(p3.stdout)
