@@ -26,5 +26,17 @@ with open('20.Ref - output.txt', 'w') as f:
 
 # Working with dir NOT existed
 p1 = subprocess.run(['ls', '-la', 'dne'], capture_output=True, text=True)
+print(p1.stderr)
 
-print()
+
+# Working with dir NOT existed - continued
+p1 = subprocess.run(['ls', '-la', 'dne'],
+                    stderr=subprocess.DEVNULL)
+print(p1.stderr)
+
+
+# cat command
+
+p1 = subprocess.run(['cat', 'text.txt'], capture_output=True, text=True)
+
+print(p1.stdout)
