@@ -1,0 +1,38 @@
+import threading
+import time
+
+start = time.perf_counter()
+
+
+def do_something(seconds):
+    print(f'Sleeping for {seconds} second(s) ...')
+    time.sleep(seconds)
+    print('Done Sleeping ...')
+
+
+threads = []
+
+# Use the _ undersecore as a throw-away variable
+for _ in range(10):
+    t = threading.Thread(target=do_something, args=[1.5])
+    t.start()
+    threads.append(t)
+
+for thread in threads:
+    thread.join()
+
+# t1 = threading.Thread(target=do_something)
+# t2 = threading.Thread(target=do_something)
+
+# t1.start()
+# t2.start()
+
+# # Apply the join method
+
+# t1.join()
+# t2.join()
+
+
+finish = time.perf_counter()
+
+print(f'Task finished in {finish:,.2f} second(s)')
