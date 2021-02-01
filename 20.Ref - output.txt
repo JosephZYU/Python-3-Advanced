@@ -1,0 +1,41 @@
+total 264
+drwxr-xr-x  40 josephyu  staff  1280 Feb  1 15:12 .
+drwxr-xr-x@ 18 josephyu  staff   576 Jan 27 10:41 ..
+drwxr-xr-x  13 josephyu  staff   416 Feb  1 14:56 .git
+-rw-r--r--   1 josephyu  staff    17 Dec 25 10:40 .gitignore
+drwxr-xr-x   3 josephyu  staff    96 Dec 25 08:21 .vscode
+-rw-r--r--   1 josephyu  staff   693 Feb  1 14:39 00.Memo.py
+-rw-r--r--   1 josephyu  staff  3949 Dec 25 09:29 01.Ref - New_States.json
+-rw-r--r--   1 josephyu  staff  9477 Dec 25 08:41 01.Ref - states.json
+-rw-r--r--   1 josephyu  staff  1130 Dec 25 09:30 01.Working with JSON Data using the json Module.py
+-rw-r--r--   1 josephyu  staff   473 Dec 25 09:32 01.Yahoo API.py
+-rw-r--r--   1 josephyu  staff  1594 Jan 14 08:56 02.Context Managers - Efficiently Managing Resources_1.py
+-rw-r--r--   1 josephyu  staff  1840 Jan 14 09:07 02.Context Managers - Efficiently Managing Resources_2.1.py
+-rw-r--r--   1 josephyu  staff   695 Jan 14 09:09 02.Context Managers - Efficiently Managing Resources_2.2.py
+-rw-r--r--   1 josephyu  staff   146 Jan 19 16:39 02.Context Managers - Efficiently Managing Resources_3.1.py
+-rw-r--r--   1 josephyu  staff   616 Dec 25 10:07 02.Ref - snippets.txt
+-rw-r--r--   1 josephyu  staff  1821 Dec 25 11:16 03.Credit Card - Calculate Number of Days, Weeks, or Months to Reach Specific Goals.py
+-rw-r--r--   1 josephyu  staff   397 Dec 25 14:36 03.Weight Loss - Calculate Number of Days, Weeks, or Months to Reach Specific Goals.py
+-rw-r--r--   1 josephyu  staff   230 Dec 25 14:48 04.Hiding Passwords and Secret Keys in Environment Variables (Mac & Linux).py
+-rw-r--r--   1 josephyu  staff    31 Dec 25 14:50 05.Hiding Passwords and Secret Keys in Environment Variables (Windows).py
+-rw-r--r--   1 josephyu  staff  2159 Dec 25 15:36 06.Sets - Set Methods and Operations to Solve Common Problems.py
+-rw-r--r--   1 josephyu  staff   759 Dec 26 10:26 07.F-Strings - How to Use Them and Advanced String Formatting.py
+-rw-r--r--   1 josephyu  staff    31 Dec 26 10:27 08.How to Set the Path and Switch Between Different Versions Executables (Mac & Linux).py
+-rw-r--r--   1 josephyu  staff    31 Dec 26 10:28 09.How to Set the Path and Switch Between Different Versions Executables (Windows).py
+-rw-r--r--   1 josephyu  staff    31 Dec 26 10:29 10.Pipenv - Easily Manage Packages and Virtual Environments.py
+-rw-r--r--   1 josephyu  staff  1788 Jan 14 08:32 11.Iterators and Iterables - What Are They and How Do They Work.py
+-rw-r--r--   1 josephyu  staff  4042 Dec 26 19:40 12.Itertools Module - Iterator Functions for Efficient Looping - PENDING Advanced Review.py
+-rw-r--r--   1 josephyu  staff  1004 Feb  1 14:41 19.Clarifying the Issues with Mutable Default Arguments_1.py
+-rw-r--r--   1 josephyu  staff   782 Feb  1 14:54 19.Clarifying the Issues with Mutable Default Arguments_2.py
+-rw-r--r--   1 josephyu  staff   549 Feb  1 15:12 20.Calling External Commands Using the Subprocess Module.py
+-rw-r--r--   1 josephyu  staff     0 Feb  1 15:12 20.Ref - output.txt
+-rw-r--r--   1 josephyu  staff    54 Dec 27 10:21 21.The Difference Between "==" and "is".py
+drwxr-xr-x   5 josephyu  staff   160 Dec 25 10:37 Sample-Dir-One
+drwxr-xr-x   5 josephyu  staff   160 Dec 25 10:38 Sample-Dir-Two
+-rw-r--r--   1 josephyu  staff  2117 Dec 27 12:36 TBD.Dec 27.py
+drwxr-xr-x   3 josephyu  staff    96 Dec 26 19:35 __pycache__
+-rw-r--r--   1 josephyu  staff   336 Jan 21 16:06 require.txt
+-rw-r--r--   1 josephyu  staff    24 Jan 19 16:39 sample.txt
+-rw-r--r--   1 josephyu  staff   841 Dec 26 19:32 snippets_people.py
+-rw-r--r--   1 josephyu  staff   247 Dec 26 19:01 test.log
+drwxr-xr-x   6 josephyu  staff   192 Dec 25 08:20 venv
