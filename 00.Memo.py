@@ -1,13 +1,13 @@
-02.Context Managers - Efficiently Managing Resources.py
+# 02.Context Managers - Efficiently Managing Resources.py
 
 # 🎯🧐 Review on the tear down method: try and finally
 # Ref - https://youtu.be/-aKFBoZpiqA?t=770
 
-S1 - Context Manager via Class - https: // youtu.be/-aKFBoZpiqA?t = 158 ⏩⏩
+# S1 - Context Manager via Class - https: // youtu.be/-aKFBoZpiqA?t = 158 ⏩⏩
 
-S2 - Context Manager via function - https: // youtu.be/-aKFBoZpiqA?t = 503 ⏩⏩
+# S2 - Context Manager via function - https: // youtu.be/-aKFBoZpiqA?t = 503 ⏩⏩
 
-RESUME -> https: // youtu.be/-aKFBoZpiqA?t = 558
+# RESUME -> https: // youtu.be/-aKFBoZpiqA?t = 558
 
 
 # NOTE: this is NOT an "if-else" statement, it is ONLY a pre-requisite
