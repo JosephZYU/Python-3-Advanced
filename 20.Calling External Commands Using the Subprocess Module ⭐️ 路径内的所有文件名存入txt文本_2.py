@@ -14,7 +14,7 @@ def create_project(full_path='/Users/josephyu/Desktop/', project_name='new_proje
     subprocess.run(msg, shell=True)
 
 
-create_project(project_name='JosephYu')
+create_project(project_name='Project_JosephYu')
 
 """
 full_path = '/Users/josephyu/Desktop/'
